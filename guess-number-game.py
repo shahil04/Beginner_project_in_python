@@ -41,4 +41,10 @@ def guess_game():
 
 	print('------------game over!--------------')
 	print('\n')	
-guess_game()
+i=1
+while(i):
+	guess_game()
+	print("\nyou want to play again\n")
+	print("press 1 or not press 0\n")
+	i=int(input())
+
